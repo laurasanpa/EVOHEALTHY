@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>EVOHealthy - Alta Usuario</title>
+        <link rel = "stylesheet" type="text/css" href="index.css">
+        
+    </head>
+    <body>
+        <header>
+            <img src="EvoHealth.png" alt="logo" class="small" id="logo"/>
+            <h1>Consigue tu objetivo</h1>
+            <h5>Nombre de usuario</h5>
+        </header>  
+        <main>
+            <section id="alta1">
+                <h4>ALTA NUEVO USUARIO</h4>
+                <BR>
+            </section>
+           
+            <form  id="altausuario" action="altausuario.php" method="get">
+                <fielset>
+                    <label for="email">Indique un correo eletr&oacute;nico</label>
+                    <input type="text" name="email">
+                    <label for="password">Contraseña</label>
+                    <input type="text" name="password">
+                    <label for="Nombre"> Nombre</label>
+                    <input type= "text" id="nombreusuario" name= "nombre" required/>
+                    <BR><BR>
+                    <label for="Apellidos">Apellidos</label>
+                    <input type= "text" id="apellidos" name="apellidos" required/>
+                    <BR><BR>
+                    <label for="Peso">Peso</label>
+                    <input type="number"id="Peso"name="peso"/>
+                    <BR><BR>
+                    <label for="altura">Altura</label>
+                    <input type= "text" id="altura" name="altura"/>
+                    <BR><BR>
+                    <label for="edad">Edad</label>
+                    <input type="number"id="edad"name="edad"/>
+                             
+                    <BR><BR>
+                    <label for="sexo">Sexo</label><BR>
+                    <input type="radio" name="sexo" value="Hombre"/>Hombre
+                    <input type="radio" name="sexo" value="Mujer"/>Mujer
+                    <input type="radio" name="sexo" value="Otro"/>Otro
+                    <BR><BR>
+                    
+                    <input type="submit" class ="boton" value="Enviar"/>
+                </fieldset>
+       
+                <a href="bd1.html" class="boton">Cancelar</a>
+          
+            </form>
+        </main>
+        <BR>
+            <footer>
+                <p id="footer">
+                <a href="contacto.html">Contacto</a>
+                <a href="como_se_hizo.pdf"> C&oacute;mo se hizo </a>
+                </p>
+            </footer>

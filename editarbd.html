@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>EVOHealthy - Alta Recurso</title>
+        <link rel = "stylesheet" type="text/css" href="index.css">
+        
+    </head>
+    <body>
+        <header>
+            <img src="EvoHealth.png" alt="logo" class="small" id="logo"/>
+            <h1>Consigue tu objetivo</h1>
+            <h5>Nombre de usuario</h5>
+        </header>  
+        <main>
+            <section id="alta1">
+                <h3>EDITAR BIBLIOTECA</h3>
+                <BR>
+                <!--Para subir el nuevo archivo pondremos una foto que funcionará como boton-->
+                <a href="" title="Pincha para subir un documento">
+                    <img src="subirarchivo.png" alt="Subir archivo" id="subir"/>
+                </a>
+            </section>
+           
+            <form  id="altarec" action="altarec.php" method="get" autocomplete="ON">
+                <fielset>
+                    <label for="Nuevo nombre"> T&iacute;tulo</label>
+                    <input type= "text" id="nombrerec" name= "nombre"/>
+                    <BR><BR>
+                    <label for="author">Añadir autor</label>
+                    <input type= "text" id="author" name="author"/>
+                    <BR><BR>
+                    <label for="secciones">N&uacute;mero de secciones</label>
+                    <input type="number"id="secciones"name="secciones"/>
+                    <BR><BR>
+                    <label for="profesional">Profesional</label>
+                    <input type= "text" id="trainer" name="trainer"/>
+                    <BR><BR>
+                    <label for="description">Descripci&oacute;n</label>
+                    <BR>
+                    <textarea name="description" rows="10" cols="40"></textarea>   
+                </fieldset>
+            </form>
+
+            <section id=botones>
+                <a href="gestorbd.html" class="boton">Enviar</a>
+                <a href="gestorbd.html" class="boton">Cancelar</a>
+            </section>
+           
+        </main>
+        <BR>
+            <footer>
+                <p id="footer">
+                <a href="contacto.html">Contacto</a>
+                <a href="como_se_hizo.pdf"> C&oacute;mo se hizo </a>
+                </p>
+            </footer>
+    </body>
+</html>

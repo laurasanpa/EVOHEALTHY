@@ -1,0 +1,9 @@
+1. Configuracion, la info basica de la BD.
+2. datosObjectClass -> Clase para conexión a la BD.
+3. usuarioClass -> clase para manejar usuarios.
+    - constructor.
+    - obtenerUsuarios
+    - obtenerUsuario por nombre
+    - insertar usuario
+
+4. altausuario.php -> Procesala iformación obtenida por el formulario altausuriio.html, crea un usuario y lo almancena en la BD.

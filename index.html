@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>EVOHealthy - Principal</title>
+        <link rel = "stylesheet" type="text/css" href="index.css">
+        
+    </head>
+    <body>
+        <header> 
+            <img src="EvoHealth.png" alt="logo" class="small" id="logo"/>
+            <h1>Consigue tu objetivo</h1>
+            <form  id="login" action="login.php" method="get" autocomplete="ON">
+                
+                    <label for="Usuario:"> Usuario</label>
+                    <input type= "text" id="usuario" name= "usuario" required/>
+                    <BR>
+                    <label for="Contraseña"> Contraseña </label>
+                    <input type= "text" id="contraseña" name="contraseña" required/>
+                    <!--En botón tiene que enlazar con gestorbd.html-->
+                    <BR>
+                    <a href="gestorbd.html" class="boton" >
+                       Acceder
+                        <!--<input type = "submit" id = "button1" value = "Iniciar"/>-->
+                    </a>
+                
+                    <a href="altausuario.html" class="boton">¿No tienes cuenta? Regístrate.</a>
+                
+            </form>
+        </header>
+        <main>
+            <BR>
+            
+            <!--Esta sección debe ir a la izquierda-->
+            <section id="mainsection1">
+                <video src="presentacion.mp4" class="mediumSection" controls>
+                    Tu navegador no suporta el elemento vídeo.
+                </video>
+            </section>
+            
+            <!--Esta sección a la derecha-->
+            <section id="mainsection2">
+                <article id="SectionEntrenamiento" >
+                    <a href="bd1.html">
+                    <img id="entreGeneral" src="entreGeneral.jpg" alt="Entrenamiento" class="mediumSection"/>
+                    </a>
+                </article>
+                <article id="SectionDietas">
+                    <a href="html/bd1.html">
+                    <img id="dietaGeneral" src="dietaGeneral.png" alt="Alimentación" class="mediumSection" />
+                    </a>
+                </article>
+                <article id="SectionConsejos">
+                    <a href="bd1.html">
+                    <img id="consejoGeneral" src="consejoGeneral.png" alt="Consejo" class="mediumSection" />
+                    </a>
+                </article>
+            </section>
+
+            </section>
+        </main>
+        <BR>
+            <footer>
+                <p id="footer">
+                <a href="bd1.html">Contacto</a>
+                <a href="como_se_hizo.pdf"> C&oacute;mo se hizo </a>
+                </p>
+            </footer>
+    </body>
+</html>
